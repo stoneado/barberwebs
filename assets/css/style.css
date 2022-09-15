@@ -55,6 +55,7 @@
 
 body {
   margin: 0;
+  width: 100 vh;
   font-family: var(--bs-font-sans-serif);
   font-size: 1rem;
   font-weight: 400;
@@ -3898,6 +3899,7 @@ textarea.form-control-lg {
 
 .navbar {
   position: relative;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -10795,7 +10797,9 @@ textarea.form-control-lg {
 .display-2--intro {
   display: inline-block;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: Georgia, 'Times New Roman', Times, serif ;
+  font-style: italic;
+  color: #000;
 }
 .display-2--description {
   font-size: 1rem;
@@ -10968,6 +10972,7 @@ textarea.form-control-lg {
 .testimonials {
   position: relative;
   padding: 0;
+  width: 100%;
   background-image: radial-gradient(circle at 50% 50%, #F0D302 0, #F0D302 50%, #F0D302 100%);
 }
 .testimonials__card {
