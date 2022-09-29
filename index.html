@@ -16,33 +16,40 @@
 </head>
 
 <body>
+
+    <!-- Preloader 
+    <div class="preloader d-flex align-items-center justify-content-center">
+      <div class="preloader-circle"></div>
+      <div class="preloader-img">
+          <img src="images/logonav.png" alt="">
+      </div>
+  </div>-->
+
+
  <!-- ////////////////////////////////////////////////////////////////////////////////////////
                                START SECTION 1 - THE NAVBAR SECTION  
 /////////////////////////////////////////////////////////////////////////////////////////////--> 
 <nav class="navbar navbar-expand-lg navbar-dark menu shadow fixed-top">
     <div class="container">
       <a class="navbar-brand" href="#">
-        <img src="images/logo.png" alt="logo image">
+        <img src="images/logonav.png" alt="logo image">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
         <ul class="navbar-nav">
-          <li class="nav-item"><a class="nav-link scrollto" aria-current="page" href="#">Home</a></li>
-          <li class="nav-item"><a class="nav-link scrollto" href="#services">Servicios</a></li>
+          <li class="nav-item"><a target="_blank" class="nav-link scrollto" aria-current="page" href="https://barbertendence.com">Inicio</a></li>
+          <!--<li class="nav-item"><a class="nav-link scrollto" href="#services">Servicios</a></li>-->
           <li class="nav-item"><a class="nav-link scrollto" href="#testimonials">Testimonios</a></li>
           <li class="nav-item"><a class="nav-link scrollto" href="#faq">faqs</a></li>
           <li class="nav-item"><a class="nav-link scrollto" href="#portfolio">portfolio</a></li>
           <li class="nav-item"><a class="nav-link scrollto" href="#contact">contacto</a>
           </li>
         </ul>
-        <button type="button" class="rounded-pill btn-rounded"><a href="tel: +541124016480">
-          +54 11 24016480</a>
-          <span>
-            <i class="fas fa-phone-alt"></i>
-          </span>
-        </button>
+        <button href="#contact" type="button" class="rounded-pill btn-rounded border-primary"><a href="#contact">Quiero mi web</a>
+          <span><a href="#contact" class="fas fa-arrow-right"></a></span>
+        </button> 
       </div>
     </div>
   </nav>
@@ -59,12 +66,12 @@
         <!-- START THE CONTENT FOR THE INTRO  -->
         <div class="col-md-6 intros text-start">
           <h1 class="display-2">
-            <span class="display-2--intro">BarberWebs</span>
+            <span class="display-2--intro">Barberwebs</span>
             <span class="display-2--description lh-base">
              ¿Alguna vez pensaste en tener tu propio sitio web? Te contamos algunos beneficios de tener presencia en Internet
                         </span>
           </h1>
-          <button type="button" class="rounded-pill btn-rounded">Comenzamos?
+          <button type="button" class="rounded-pill btn-rounded glightbox">Comenzamos?
             <span><a href= # class="fas fa-arrow-right glightbox"></a></span>
           </button>
         </div>
@@ -92,53 +99,7 @@
     </svg>
   </section>
 
-  <!-- //////////////////////////////////////////////////////////////////////////////////////////////
-                             START SECTION 3 - THE CAMPANIES SECTION  
-////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
-  <section id="campanies" class="campanies">
-    <div class="container">
-      <div class="row text-center">
-        <h4 class="fw-bold lead mb-3">Algunos de nuestros amigos</h4>
-        <div class="heading-line mb-5"></div>
-      </div>
-    </div>
-    <!-- START THE CAMPANIES CONTENT  -->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-1.png" alt="Campany 1 logo" title="Campany 1 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-2.png" alt="Campany 2 logo" title="Campany 2 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-3.png" alt="Campany 3 logo" title="Campany 3 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-4.png" alt="Campany 4 logo" title="Campany 4 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-5.png" alt="Campany 5 logo" title="Campany 5 Logo" class="img-fluid">
-          </div>
-        </div>
-        <div class="col-md-4 col-lg-2">
-          <div class="campanies__logo-box shadow-sm">
-            <img src="images/campanies/campany-6.png" alt="Campany 6 logo" title="Campany 6 Logo" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  
 
   <!-- //////////////////////////////////////////////////////////////////////////////////////////////
                          START SECTION 4 - THE SERVICES  
@@ -146,7 +107,7 @@
   <section id="services" class="services">
     <div class="container">
       <div class="row text-center">
-        <h1 class="display-3 fw-bold">Como podemos ayudarte? </h1>
+        <h1 class="display-3 fw-bold">¿Por qué las barberías necesitan una página web?</h1>
         <div class="heading-line mb-1"></div>
       </div>
       <!-- START THE DESCRIPTION CONTENT  -->
@@ -191,27 +152,12 @@
             <div class="icon d-block fas fa-globe"></div>
             <h3 class="display-3--title mt-1">Tener presencia en Internet y en Google</h3>
             <p class="lh-lg">
-              Hoy en día, el mejor escaparate para tu
-              negocio es internet. Se calcula que a finales
-              de año la cifra de usuarios de internet a escala
-              mundial ascenderá a 3000 millones. El
-              mercado cada vez está más globalizado y la
-              competencia es más fuerte. Seguramente, esa
-              competencia ya tiene su página profesional.
-              Tu imagen corporativa y tu página web son la
-              cara visible de tu marca. Por eso tienen que
-              ser actuales y potentes.
-              No solo conocerán tu marca las personas que
-              vayan a tu barbería sino que, cualquier
-              persona con acceso a internet podrá ver lo
-              que ofreces y obtener información detallada
-              de cada uno de tus servicios. Como dijo Bill
-              Gates “si tu negocio no está en internet, tu
-              negocio no existe”.
+              Tu imagen corporativa y tu página web son la cara visible de tu marca. No solo conocerán tu marca las personas que vayan a tu barbería sino que, cualquier persona con acceso a internet podrá ver lo que ofreces y obtener información detallada de cada uno de tus servicios. Como dijo Bill Gates “si tu negocio no está en internet, tu negocio no existe”.
+              
             </p>
-            <!-- <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
-              <span><i class="fas fa-arrow-right"></i></span>
-            </button> -->
+            <button type="button" class="rounded-pill btn-rounded border-primary"><a href="#contact">Quiero mi web</a>
+              <span><a href="#contact" class="fas fa-arrow-right"></a></span>
+            </button> 
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
@@ -232,23 +178,11 @@
             <div class="icon d-block fas fa-concierge-bell"></div>
             <h3 class="display-3--title mt-1">Mejorar la imagen de tu marca y ofrecer atencion al cliente 24hs</h3>
             <p class="lh-lg">
-              El tener una web te brinda la oportunidad
-              de estar en contacto constante con tus
-              clientes, que pueden consultarte en
-              cualquier momento o ver tus productos y/o
-              servicios a cualquier hora. Eso les da
-              confianza y seguridad.
-              Con una buena estrategia de comunicación
-              en nuestra página, favoreceremos el
-              feedback con el cliente, el que pueda
-              dejarnos su opinión, sus dudas, sus
-              alabanzas y quejas. Esto nos dará buena
-              imagen cuando nuevos clientes accedan a
-              nuestro sitio.
+              El tener una web da confianza y seguridad. Con una buena estrategia de comunicación en nuestra página, favorecemos el feedback con el cliente, el que pueda dejarnos su opinión, sus dudas, sus alabanzas y quejas. Esto nos dará buena imagen cuando nuevos clientes accedan a nuestro sitio.
             </p>
-            <!-- <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
-              <span><i class="fas fa-arrow-right"></i></span>
-            </button> -->
+            <button type="button" class="rounded-pill btn-rounded border-primary"><a href="#contact">Quiero mi web</a>
+              <span><a href="#contact" class="fas fa-arrow-right"></a></span>
+            </button> 
           </div>
         </div>
       </div>
@@ -259,26 +193,11 @@
             <div class="icon d-block fas fa-people-arrows"></div>
             <h3 class="display-3--title mt-1">Ayuda a conseguir nuevos clientes y fidelizar a los que ya tienes</h3>
             <p class="lh-lg">
-              Si hacemos un buen trabajo con la web, y
-              aplicamos algunas técnicas sencillas de
-              marketing online, veremos como comienzan
-              a contactarnos nuevos clientes. Si somos
-              competitivos en nuestra imagen y servicios,
-              esas visitas se convertirán en clientes.
-              También podemos usar esas técnicas para
-              fidelizar a nuestros clientes habituales,
-              ofreciéndoles ventajas específicas pensando
-              en sus necesidades.
-
-              Es muy importante que le des prioridad al
-              diseño de tu página y que contrates para
-              esta tarea personal especializado.
-              Barbertendence cuenta con un equipo de
-              profesionales del diseño gráfico capacitado.
+              Si hacemos un buen trabajo con la web, y aplicamos algunas técnicas sencillas de marketing online, veremos como comienzan a contactarnos nuevos clientes. Es muy importante que le des prioridad al diseño de tu página y que contrates para esta tarea personal especializado. Barbertendence cuenta con un equipo de profesionales del diseño gráfico capacitado.
             </p>
-            <!-- <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
-              <span><i class="fas fa-arrow-right"></i></span>
-            </button> -->
+            <button type="button" class="rounded-pill btn-rounded border-primary"><a href="#contact">Quiero mi web</a>
+              <span><a href="#contact" class="fas fa-arrow-right"></a></span>
+            </button> 
           </div>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 services mt-4 text-end">
@@ -300,25 +219,11 @@
           <div class="icon d-block fas fa-money-bill-alt"></div>
           <h3 class="display-3--title mt-1">Aumenta la probabilidad de facturar mas</h3>
           <p class="lh-lg">
-            Una página web es una manera de
-            publicitarnos diariamente con un mínimo
-            mantenimiento. Un anuncio permanente
-            que puede contar diferentes cosas según lo
-            vayamos adaptando a las necesidades
-            cambiantes de nuestro público y que tiene
-            un alcance mundial con un coste realmente
-            bajo.
-            Además, contar con un catálogo de servicios
-            en tu página web permite que las personas
-            puedan verlo sin la necesidad de
-            consultarlo. Esto mejora notablemente el
-            servicio al cliente debido a que puedas
-            solucionar problemas con una sección de
-            preguntas frecuentes (FAQ).
+            Una página web es una manera de publicitarnos diariamente con un mínimo mantenimiento. Un anuncio permanente que puede contar diferentes cosas según lo vayamos adaptando a las necesidades cambiantes de nuestro público y que tiene un alcance mundial con un coste realmente bajo.
           </p>
-            <!-- <button type="button" class="rounded-pill btn-rounded border-primary">Learn more
-              <span><i class="fas fa-arrow-right"></i></span>
-            </button> -->
+          <button type="button" class="rounded-pill btn-rounded border-primary"><a href="#contact">Quiero mi web</a>
+            <span><a href="#contact" class="fas fa-arrow-right"></a></span>
+          </button> 
         </div>
       </div>
     </div>
@@ -337,7 +242,7 @@
       <div class="row text-center text-dark">
         <h1 class="display-3 fw-bold">Testimonios</h1>
         <hr style="width: 100px; height: 3px; " class="mx-auto">
-        <p class="lead pt-1">¿como ayudamos a nuestros clientes?</p>
+        <p class="lead pt-1">Grandes referentes opinaron sobre nuestro trabajo</p>
       </div>
 
       <!-- START THE CAROUSEL CONTENT  -->
@@ -500,6 +405,7 @@
             </button>
           </div>
         </div>
+
       </div>
     </div>
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -623,6 +529,11 @@
               </div>
             </div>
           </div>
+
+          <button type="button" class="rounded-pill btn-rounded border-primary"><a href="#contact">Quiero mi web</a>
+            <span><a href="#contact" class="fas fa-arrow-right"></a></span>
+          </button> 
+
         </div>
       </div>
     </div>
@@ -631,11 +542,17 @@
   <!-- ///////////////////////////////////////////////////////////////////////////////////////////////////
                               START SECTION 7 - THE PORTFOLIO  
 //////////////////////////////////////////////////////////////////////////////////////////////////////-->
-
+<section id="testimonials" class="testimonials">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#fff" fill-opacity="1"
+      d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z">
+    </path>
+  </svg>
+  
   <section id="portfolio" class="portfolio">
     <div class="container">
       <div class="row text-center mt-5">
-        <h1 class="display-3 fw-bold text-capitalize">Ultimos trabajos</h1>
+        <h1 class="display-3 fw-bold text-capitalize">Últimos trabajos</h1>
         <div class="heading-line"></div>
         <p class="lead">
           Barbertendence te ofrece las mayores
@@ -736,7 +653,17 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6">
+
+        <div class="text-center">
+
+          <button type="button" class="rounded-pill btn-rounded border-primary"><a href="#contact">Quiero mi web</a>
+            <span><a href="#contact" class="fas fa-arrow-right"></a></span>
+          </button> 
+<br><br>
+        </div>
+        
+
+       <!-- <div class="col-lg-4 col-md-6">
           <div class="portfolio-box shadow">
             <img src="images/portfolio/portfolio-7.png" alt="portfolio 7 image" title="portfolio 7 picture"
               class="img-fluid">
@@ -773,8 +700,15 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </div>-->
+  </section> 
+
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    <path fill="#fff" fill-opacity="1"
+      d="M0,96L48,128C96,160,192,224,288,213.3C384,203,480,117,576,117.3C672,117,768,203,864,202.7C960,203,1056,117,1152,117.3C1248,117,1344,203,1392,245.3L1440,288L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+    </path>
+  </svg>
+</section>
 
   <!-- /////////////////////////////////////////////////////////////////////////////////////////////////////////
               START SECTION 8 - GET STARTED  
@@ -807,7 +741,7 @@
         </div>
         <div class="col-12 col-lg-6 bg-white shadow p-3">
           <div class="form w-100 pb-2">
-            <h4 class="display-3--title mb-5">Empieza tu proyecto</h4>
+            <h4 class="display-3--title mb-5">Pide tu presupuesto sin cargo</h4>
             <form action="#" class="row">
               <div class="col-lg-6 col-md mb-3">
                 <input type="text" placeholder="Nombre" id="inputFirstName"
@@ -837,6 +771,56 @@
       </div>
     </div>
   </section>
+
+
+<!-- //////////////////////////////////////////////////////////////////////////////////////////////
+                             START SECTION 3 - THE CAMPANIES SECTION  
+////////////////////////////////////////////////////////////////////////////////////////////////////-->
+
+<section id="campanies" class="campanies">
+  <div class="container">
+    <div class="row text-center">
+      <h4 class="fw-bold lead mb-3">Algunos de nuestros amigos</h4>
+      <div class="heading-line mb-5"></div>
+    </div>
+  </div>
+  <!-- START THE CAMPANIES CONTENT  -->
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-lg-2">
+        <div class="campanies__logo-box shadow-sm">
+          <img src="images/campanies/campany-1.png" alt="Campany 1 logo" title="Campany 1 Logo" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-2">
+        <div class="campanies__logo-box shadow-sm">
+          <img src="images/campanies/campany-2.png" alt="Campany 2 logo" title="Campany 2 Logo" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-2">
+        <div class="campanies__logo-box shadow-sm">
+          <img src="images/campanies/campany-3.png" alt="Campany 3 logo" title="Campany 3 Logo" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-2">
+        <div class="campanies__logo-box shadow-sm">
+          <img src="images/campanies/campany-4.png" alt="Campany 4 logo" title="Campany 4 Logo" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-2">
+        <div class="campanies__logo-box shadow-sm">
+          <img src="images/campanies/campany-5.png" alt="Campany 5 logo" title="Campany 5 Logo" class="img-fluid">
+        </div>
+      </div>
+      <div class="col-md-4 col-lg-2">
+        <div class="campanies__logo-box shadow-sm">
+          <img src="images/campanies/campany-6.png" alt="Campany 6 logo" title="Campany 6 Logo" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
   <!-- ///////////////////////////////////////////////////////////////////////////////////////////
                            START SECTION 9 - THE FOOTER  
@@ -963,12 +947,14 @@
     </div>
   </footer>
 
-  <!-- BACK TO TOP BUTTON  -->
+  <!-- BACK TO TOP BUTTON  
   <a href="#" class="shadow btn-primary rounded-circle back-to-top">
     <i class="fas fa-chevron-up"></i>
-  </a>
+  </a>-->
 
-
+  <a class="btn-wsp" target="_blank" href="https://api.whatsapp.com/send?phone=541124016480">
+    <i><span class="fab fa-whatsapp"></span></i>
+</a>
 
 
   <script src="assets/vendors/js/glightbox.min.js"></script>
@@ -976,7 +962,7 @@
   <script type="text/javascript">
     const lightbox = GLightbox({
       'touchNavigation': true,
-      'href': 'https://www.youtube.com/watch?v=TjdSKAMAc3M',
+      'href': 'https://youtu.be/g1Jh_pVMAKM',
       'type': 'video',
       'source': 'youtube', //vimeo, youtube or local
       'width': 900,
